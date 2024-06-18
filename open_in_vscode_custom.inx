@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+	<name>Open in</name>
+	<id>ray34g.com.open_in_vscode_custom</id>
+    <dependency type="extension">ray34g.com.open_in_vscode</dependency>
+
+	<effect needs-live-preview="false">
+		<object-type>script</object-type>
+		<menu-tip>Start editting script and styles in other program</menu-tip>
+		<effects-menu>
+		  <submenu name="Open in VSCode"/>
+		</effects-menu>
+	</effect>
+
+	<param name="action" type="string" gui-hidden="true">open</param>
+	<label xml:space="preserve">Set command and options for the editor you use.</label>
+	<param name="command" type="string" gui-text="Command">code</param>
+	<param name="command-option" type="string" gui-text="Command Option">-n</param>
+	<param name="editor-tempdir-prefix" type="string" gui-text="Prefix for temprary directory">inkscape-vscode-</param>
+
+	<script>
+		<command reldir="extensions" interpreter="python">open_in_vscode.py</command>
+	</script>
+</inkscape-extension>

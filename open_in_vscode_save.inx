@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+	<name>Save</name>
+	<id>ray34g.com.open_in_vscode_save</id>
+    <dependency type="extension">ray34g.com.open_in_vscode</dependency>
+
+	<effect needs-live-preview="false">
+		<object-type>all</object-type>
+		<menu-tip>Apply change scripts you editted in the editor.</menu-tip>
+		<effects-menu>
+			<submenu name="Open in VSCode"/>
+		</effects-menu>
+	</effect>
+	
+	<param name="action" type="string" gui-hidden="true">save</param>
+	<param name="remove-data-attribute" type="bool" gui-text="Remove data attribute after save">true</param>
+	<param name="remove-editor-tempdir" type="bool" gui-text="Remove editor temporary directory after save">true</param>
+
+	<script>
+		<command reldir="extensions" interpreter="python">open_in_vscode.py</command>
+	</script>
+</inkscape-extension>

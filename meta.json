@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Open in VSCode",
+    "id": "ray34g.com.open_in_texteditor",
+    "path": "open_in_texteditor",
+    "dependent_extensions": null,
+    "original_name": "Open in Text Editor",
+    "original_id": "ray34g.com.open_in_vscode",
+    "license": "MIT",
+    "license_url": "https://github.com/ray34g/open_in_vscode/LICENSE",
+    "comment": "Written by ray34g",
+    "source_url": "https://github.com/ray34g/open_in_vscode",
+    "fork_url": null,
+    "documentation_url": "https://github.com/ray34g/open_in_vscode/README.md",
+    "inkscape_gallery_url": "https://inkscape.org/",
+    "contributors": [
+      "github.com/ray34g"
+    ]
+  }
+]
