@@ -1,8 +1,10 @@
-# Open in VSCode
+# Open in VSCode - Inkscape extension
+
+Inkscape extension to edit embedded Javascript and CSS in VS Code.
 
 ## Feature
 
-- Create and update embedded Javascript in the SVG file using Visual Studio Code.
+- Create and update embedded Javascript and CSS in the SVG file using Visual Studio Code.
 
 ## How it works
 
